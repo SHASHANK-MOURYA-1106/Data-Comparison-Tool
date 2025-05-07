@@ -19,7 +19,7 @@ This tool compares data between source and target files, identifies mismatches, 
 - pandas
 - yagmail
 - psutil
-- python-dotenv
+
 
 ## Installation
 1. Clone the repository:
