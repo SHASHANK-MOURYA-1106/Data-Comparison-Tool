@@ -1,0 +1,11 @@
+﻿Source,Source Tablename,Target,Target Tablename,Enable,Sort_Columns
+Sybase,TransactionHistoryArchive,Oracle,TransactionHistoryArchive,Y,TransactionID
+Sybase,sales_record,Oracle,sales_record,N,Order ID
+Sybase,TransactionHistoryArchive_1M,Oracle,TransactionHistoryArchive_1M,N,TransactionID
+Sybase,TransactionHistoryArchive 2,Oracle,TransactionHistoryArchive 2,N,TransactionID
+Sybase,sales_record_5M,Orcale,sales_record_5M,N,Order ID
+Sybase,TransactionHistoryArchive_four,Orcale,TransactionHistoryArchive_four,Y,TransactionID
+Sybase,TransactionHistoryArchive_five,Orcale,TransactionHistoryArchive_five,Y,TransactionID
+Sybase,TransactionHistoryArchive_six,Orcale,TransactionHistoryArchive_six_target,Y,TransactionID
+Sybase,TransactionHistoryArchive_three,Orcale,TransactionHistoryArchive_three,Y,TransactionID
+Sybase,TransactionHistoryArchive_two,Orcale,TransactionHistoryArchive_two,Y,TransactionID

@@ -1,0 +1,61 @@
+TEST_EXECUTION_ID,TEST_CASE_ID,TEST_CASE_DESCRIPTION,TABLE_NAME,EXECUTION_STATUS,EXECUTION_DETAILS,ACTIVE_FLAG,CREATED_DATE
+1,1,Row Count Comparison,TransactionHistoryArchive,Passed,"Source (TransactionHistoryArchive) Row Count: 1000001, Target (TransactionHistoryArchive) Row Count: 1000001",N,2025-05-07 11:23:23
+1,3,Duplicate Data,TransactionHistoryArchive,Failed,2_Duplicates found.,Y,2025-05-07 11:23:24
+1,4,Missing Rows in Target,TransactionHistoryArchive,Failed,1 rows missing in target.,Y,2025-05-07 11:23:24
+1,2,Data Comparison (Sorted Chunks),TransactionHistoryArchive,Failed,Mismatches found and 1999995 mismatches found.,Y,2025-05-07 11:23:31
+2,1,Row Count Comparison,TransactionHistoryArchive_four,Failed,"Source (TransactionHistoryArchive_four) Row Count: 1000001, Target (TransactionHistoryArchive_four) Row Count: 1000000",Y,2025-05-07 11:23:43
+2,4,Missing Rows in Target,TransactionHistoryArchive_four,Failed,1 rows missing in target.,Y,2025-05-07 11:23:43
+2,2,Data Comparison (Sorted Chunks),TransactionHistoryArchive_four,Failed,Mismatches found and 1999995 mismatches found.,Y,2025-05-07 11:23:52
+3,1,Row Count Comparison,TransactionHistoryArchive_five,Failed,"Source (TransactionHistoryArchive_five) Row Count: 1000001, Target (TransactionHistoryArchive_five) Row Count: 1000000",Y,2025-05-07 11:23:23
+3,4,Missing Rows in Target,TransactionHistoryArchive_five,Failed,1 rows missing in target.,Y,2025-05-07 11:23:24
+3,2,Data Comparison (Sorted Chunks),TransactionHistoryArchive_five,Failed,Mismatches found and 1999995 mismatches found.,Y,2025-05-07 11:23:31
+4,1,Row Count Comparison,TransactionHistoryArchive_six_target,Passed,"Source (TransactionHistoryArchive_six) Row Count: 1000001, Target (TransactionHistoryArchive_six_target) Row Count: 1000001",N,2025-05-07 11:23:43
+4,3,Duplicate Data,TransactionHistoryArchive_six_target,Failed,2_Duplicates found.,Y,2025-05-07 11:23:43
+4,4,Missing Rows in Target,TransactionHistoryArchive_six_target,Failed,1 rows missing in target.,Y,2025-05-07 11:23:44
+4,2,Data Comparison (Sorted Chunks),TransactionHistoryArchive_six_target,Failed,Mismatches found and 1999995 mismatches found.,Y,2025-05-07 11:23:52
+5,1,Row Count Comparison,TransactionHistoryArchive_three,Failed,"Source (TransactionHistoryArchive_three) Row Count: 1000001, Target (TransactionHistoryArchive_three) Row Count: 1000000",Y,2025-05-07 11:23:23
+5,4,Missing Rows in Target,TransactionHistoryArchive_three,Failed,1 rows missing in target.,Y,2025-05-07 11:23:24
+5,2,Data Comparison (Sorted Chunks),TransactionHistoryArchive_three,Failed,Mismatches found and 1999995 mismatches found.,Y,2025-05-07 11:23:31
+6,1,Row Count Comparison,TransactionHistoryArchive_two,Failed,"Source (TransactionHistoryArchive_two) Row Count: 1000001, Target (TransactionHistoryArchive_two) Row Count: 1000000",Y,2025-05-07 11:23:44
+6,4,Missing Rows in Target,TransactionHistoryArchive_two,Failed,1 rows missing in target.,Y,2025-05-07 11:23:44
+6,2,Data Comparison (Sorted Chunks),TransactionHistoryArchive_two,Failed,Mismatches found and 1999995 mismatches found.,Y,2025-05-07 11:23:52
+7,1,Row Count Comparison,TransactionHistoryArchive,Passed,"Source (TransactionHistoryArchive) Row Count: 1000001, Target (TransactionHistoryArchive) Row Count: 1000001",N,2025-05-07 11:24:38
+7,3,Duplicate Data,TransactionHistoryArchive,Failed,2_Duplicates found.,Y,2025-05-07 11:24:38
+7,4,Missing Rows in Target,TransactionHistoryArchive,Failed,1 rows missing in target.,Y,2025-05-07 11:24:39
+7,2,Data Comparison (Sorted Chunks),TransactionHistoryArchive,Failed,Mismatches found and 1999995 mismatches found.,Y,2025-05-07 11:24:43
+8,1,Row Count Comparison,TransactionHistoryArchive_four,Failed,"Source (TransactionHistoryArchive_four) Row Count: 1000001, Target (TransactionHistoryArchive_four) Row Count: 1000000",Y,2025-05-07 11:24:54
+8,4,Missing Rows in Target,TransactionHistoryArchive_four,Failed,1 rows missing in target.,Y,2025-05-07 11:24:54
+8,2,Data Comparison (Sorted Chunks),TransactionHistoryArchive_four,Failed,Mismatches found and 1999995 mismatches found.,Y,2025-05-07 11:24:59
+9,1,Row Count Comparison,TransactionHistoryArchive_five,Failed,"Source (TransactionHistoryArchive_five) Row Count: 1000001, Target (TransactionHistoryArchive_five) Row Count: 1000000",Y,2025-05-07 11:25:11
+9,4,Missing Rows in Target,TransactionHistoryArchive_five,Failed,1 rows missing in target.,Y,2025-05-07 11:25:12
+9,2,Data Comparison (Sorted Chunks),TransactionHistoryArchive_five,Failed,Mismatches found and 1999995 mismatches found.,Y,2025-05-07 11:25:16
+10,1,Row Count Comparison,TransactionHistoryArchive_six_target,Passed,"Source (TransactionHistoryArchive_six) Row Count: 1000001, Target (TransactionHistoryArchive_six_target) Row Count: 1000001",N,2025-05-07 11:25:33
+10,3,Duplicate Data,TransactionHistoryArchive_six_target,Failed,2_Duplicates found.,Y,2025-05-07 11:25:33
+10,4,Missing Rows in Target,TransactionHistoryArchive_six_target,Failed,1 rows missing in target.,Y,2025-05-07 11:25:34
+10,2,Data Comparison (Sorted Chunks),TransactionHistoryArchive_six_target,Failed,Mismatches found and 1999995 mismatches found.,Y,2025-05-07 11:25:41
+11,1,Row Count Comparison,TransactionHistoryArchive_three,Failed,"Source (TransactionHistoryArchive_three) Row Count: 1000001, Target (TransactionHistoryArchive_three) Row Count: 1000000",Y,2025-05-07 11:25:59
+11,4,Missing Rows in Target,TransactionHistoryArchive_three,Failed,1 rows missing in target.,Y,2025-05-07 11:25:59
+11,2,Data Comparison (Sorted Chunks),TransactionHistoryArchive_three,Failed,Mismatches found and 1999995 mismatches found.,Y,2025-05-07 11:26:06
+12,1,Row Count Comparison,TransactionHistoryArchive_two,Failed,"Source (TransactionHistoryArchive_two) Row Count: 1000001, Target (TransactionHistoryArchive_two) Row Count: 1000000",Y,2025-05-07 11:26:24
+12,4,Missing Rows in Target,TransactionHistoryArchive_two,Failed,1 rows missing in target.,Y,2025-05-07 11:26:24
+12,2,Data Comparison (Sorted Chunks),TransactionHistoryArchive_two,Failed,Mismatches found and 1999995 mismatches found.,Y,2025-05-07 11:26:31
+13,1,Row Count Comparison,TransactionHistoryArchive,Passed,"Source (TransactionHistoryArchive) Row Count: 1000001, Target (TransactionHistoryArchive) Row Count: 1000001",N,2025-05-07 12:17:13
+13,3,Duplicate Data,TransactionHistoryArchive,Failed,2_Duplicates found.,Y,2025-05-07 12:17:13
+13,4,Missing Rows in Target,TransactionHistoryArchive,Failed,1 rows missing in target.,Y,2025-05-07 12:17:14
+13,2,Data Comparison (Sorted Chunks),TransactionHistoryArchive,Failed,Mismatches found and 1999995 mismatches found.,Y,2025-05-07 12:17:23
+14,1,Row Count Comparison,TransactionHistoryArchive_four,Failed,"Source (TransactionHistoryArchive_four) Row Count: 1000001, Target (TransactionHistoryArchive_four) Row Count: 1000000",Y,2025-05-07 12:17:13
+14,4,Missing Rows in Target,TransactionHistoryArchive_four,Failed,1 rows missing in target.,Y,2025-05-07 12:17:13
+14,2,Data Comparison (Sorted Chunks),TransactionHistoryArchive_four,Failed,Mismatches found and 1999995 mismatches found.,Y,2025-05-07 12:17:23
+15,1,Row Count Comparison,TransactionHistoryArchive_five,Failed,"Source (TransactionHistoryArchive_five) Row Count: 1000001, Target (TransactionHistoryArchive_five) Row Count: 1000000",Y,2025-05-07 12:17:13
+15,4,Missing Rows in Target,TransactionHistoryArchive_five,Failed,1 rows missing in target.,Y,2025-05-07 12:17:13
+15,2,Data Comparison (Sorted Chunks),TransactionHistoryArchive_five,Failed,Mismatches found and 1999995 mismatches found.,Y,2025-05-07 12:17:23
+16,1,Row Count Comparison,TransactionHistoryArchive_six_target,Passed,"Source (TransactionHistoryArchive_six) Row Count: 1000001, Target (TransactionHistoryArchive_six_target) Row Count: 1000001",N,2025-05-07 12:17:13
+16,3,Duplicate Data,TransactionHistoryArchive_six_target,Failed,2_Duplicates found.,Y,2025-05-07 12:17:13
+16,4,Missing Rows in Target,TransactionHistoryArchive_six_target,Failed,1 rows missing in target.,Y,2025-05-07 12:17:14
+16,2,Data Comparison (Sorted Chunks),TransactionHistoryArchive_six_target,Failed,Mismatches found and 1999995 mismatches found.,Y,2025-05-07 12:17:23
+17,1,Row Count Comparison,TransactionHistoryArchive_three,Failed,"Source (TransactionHistoryArchive_three) Row Count: 1000001, Target (TransactionHistoryArchive_three) Row Count: 1000000",Y,2025-05-07 12:17:13
+17,4,Missing Rows in Target,TransactionHistoryArchive_three,Failed,1 rows missing in target.,Y,2025-05-07 12:17:13
+17,2,Data Comparison (Sorted Chunks),TransactionHistoryArchive_three,Failed,Mismatches found and 1999995 mismatches found.,Y,2025-05-07 12:17:23
+18,1,Row Count Comparison,TransactionHistoryArchive_two,Failed,"Source (TransactionHistoryArchive_two) Row Count: 1000001, Target (TransactionHistoryArchive_two) Row Count: 1000000",Y,2025-05-07 12:17:13
+18,4,Missing Rows in Target,TransactionHistoryArchive_two,Failed,1 rows missing in target.,Y,2025-05-07 12:17:13
+18,2,Data Comparison (Sorted Chunks),TransactionHistoryArchive_two,Failed,Mismatches found and 1999995 mismatches found.,Y,2025-05-07 12:17:23
